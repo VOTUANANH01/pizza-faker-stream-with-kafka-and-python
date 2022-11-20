@@ -1,2 +1,2 @@
 kafkaCerts/
-.config
+*.config
