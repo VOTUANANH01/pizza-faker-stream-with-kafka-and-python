@@ -8,7 +8,7 @@ For more detail go to full version code on github [aiven/python-fake-data-produc
 ### Before run:
 - Download all three: the **Access Key** as *service.key*, the **Access Certificate** as *service.key*, the **CA Certificate** as *ca.pem* and put those in folder name "kafkaCerts" 
 - Use **Service URI** (usually in the form <INSTANCE_NAME>-<PROJECT_NAME>.aivencloud.come:<PORT>) as *my_server*
-- More detail on [blog]((https://aiven.io/blog/create-your-own-data-stream-for-kafka-with-python-and-faker)
+- More detail on [blog](https://aiven.io/blog/create-your-own-data-stream-for-kafka-with-python-and-faker)
 ### Bugs:
 - If the error "NoBrokerAvaible" shows up, there would be some potential things you could notice:
 1. The string of my_server should have f as a prefix, examaple: f"<INSTANCE_NAME>-<PROJECT_NAME>.aivencloud.come:<PORT>"
